@@ -6,11 +6,12 @@ A curated, machine-readable digital corpus of the complete works (*Opera Omnia*)
 corpus-thomisticum/
 ├── README.md                    # Repository documentation and catalogue
 ├── _index.md                    # Complete inventory of works, editions, and sigla
+├── ERRATA.md                    # Scholarly errata registry and emendation log
 ├── Summa.*.md                   # Summa Theologiae (1a, 1a2ae, 2a2ae, 3a, Supp) in la, en, es
 ├── Summa-contra-Gentiles.*.md   # Summa contra Gentiles (Books 1–4) in la, en, es
 ├── Compendium-theologiae.*.md   # Compendium of Theology in la, en, es
 ├── QD-*                         # Disputed Questions (De Veritate, De Potentia, De Anima, etc.)
-├── Super-*                      # Scriptural commentaries (Gospels and Pauline corpus)
+├── Super-*                      # Scriptural and Patristic/Neoplatonic commentaries
 ├── Catena-aurea.*.md            # Catena Aurea on the four Gospels in la, en, es
 ├── De-*                         # Philosophical and theological opuscula
 ├── Cajetan.*.la.md              # Cardinal Cajetan's commentaries on the Summa Theologiae
@@ -21,9 +22,9 @@ corpus-thomisticum/
 
 ## 1. Corpus Overview & Scope
 
-* **Scale**: 159 language editions across 73 distinct works (194 files, ~158 MB).
+* **Scale**: Over 167 language editions across 81 distinct works (202 files, ~162 MB).
 * **Editions Incorporated**:
-  * **Latin (`.la.md`)**: Texts from *Corpus Thomisticum* (Fundación Tomás de Aquino / Enrique Alarcón), the Leonine Commission (*Editio Leonina*), and SCTA (*Scholastic Commentaries and Texts Archive*).
+  * **Latin (`.la.md`)**: Texts from *Corpus Thomisticum* (Fundación Tomás de Aquino / Enrique Alarcón, Universidad de Navarra), the Leonine Commission (*Editio Leonina*), and SCTA (*Scholastic Commentaries and Texts Archive*).
   * **English (`.en.md`)**: Translations by the Fathers of the English Dominican Province (Benziger Brothers, 1947 / CCEL) and Joseph Kenny OP (Dominican House of Studies Priory).
   * **Spanish (`.es.md`)**: Critical translations from the *Biblioteca de Autores Cristianos* (BAC) and the Instituto del Verbo Encarnado (*tomasdeaquino.org*).
 
@@ -38,7 +39,7 @@ Because the anchors match across languages, a single locator resolves identicall
 * **Summa contra Gentiles**: `{#scg.1.c13}` (Book 1, chapter 13)
 * **De Ente et Essentia**: `{#ente.c1}` (Chapter 1)
 
-This allows instant bilingual or trilingual alignment, parallel reading, and direct citations that adhere to the Santa Croce and Roman academic citation norms.
+This allows instant bilingual or trilingual alignment, parallel reading, and direct citations that adhere to Roman and pontifical academic citation standards.
 
 ---
 
@@ -50,10 +51,10 @@ This allows instant bilingual or trilingual alignment, parallel reading, and dir
   * *Prima Secundae* (`1a2ae`)
   * *Secunda Secundae* (`2a2ae`)
   * *Tertia Pars* (`3a`)
-  * *Supplementum* (`supp`)
+  * *Supplementum* (`supp`, currently in English; Latin in progress)
 * **Summa contra Gentiles**: Books 1 through 4 in Latin, English, and Spanish.
 * **Compendium Theologiae**: In Latin, English, and Spanish.
-* **Scriptum super Sententiis**: Commentary on the Sentences of Peter Lombard.
+* **Scriptum super Sententiis**: Commentary on the Sentences of Peter Lombard (English outline held; full Latin text for Books I to IV being ingested from Corpus Thomisticum, with Book I Trinitarian distinctiones prioritised).
 
 ### B. Disputed Questions (*Quaestiones Disputatae*)
 * *Quaestiones Disputatae de Veritate* (Truth) in Latin, English, and Spanish.
@@ -62,10 +63,10 @@ This allows instant bilingual or trilingual alignment, parallel reading, and dir
 * *Quaestio Disputata de Spiritualibus Creaturis* in Latin, English, and Spanish.
 * *Quaestiones Disputatae de Virtutibus* (Virtues in General, Charity, Cardinal Virtues) in Latin and English.
 * *Quaestio Disputata de Unione Verbi Incarnati* in English.
-* *Quaestio Disputata de Malo* in Spanish.
-* *Quaestiones Quodlibetales* (Quodlibetal Questions 1–12) in Latin and English.
+* *Quaestio Disputata de Malo* (q. 1 in Spanish; full Latin text in progress).
+* *Quaestiones Quodlibetales* (Quodlibets 1 to 12).
 
-### C. Major Opuscula
+### C. Major Opuscula & Theological Commentaries
 * *De Ente et Essentia* (On Being and Essence) in Latin, English, and Spanish.
 * *De Principiis Naturae* (On the Principles of Nature) in Latin, English, and Spanish.
 * *De Unitate Intellectus contra Averroistas* in Latin, English, and Spanish.
@@ -74,13 +75,28 @@ This allows instant bilingual or trilingual alignment, parallel reading, and dir
 * *De Regno, ad Regem Cypri* (On Kingship) in Latin, English, and Spanish.
 * *De Articulis Fidei et Ecclesiae Sacramentis* in Latin, English, and Spanish.
 * *De Rationibus Fidei contra Saracenos, Graecos et Armenos* in Latin and English.
-* *De Mixtione Elementorum*, *De Motu Cordis*, *De Sortibus*, and *De Emptione et Venditione*.
+* *Super Boetium De Trinitate* in Latin and English.
+* *Super Boetium De hebdomadibus* (*Expositio libri Boetii De ebdomadibus*) in Latin.
+* *Super Librum De causis* (*Expositio super librum De causis*) in Latin.
+* *Super De divinis nominibus* (*In librum beati Dionysii De divinis nominibus*) in Latin.
+* Shorter opuscula (*De mixtione elementorum*, *De motu cordis*, *De operationibus occultis naturae*, *De iudiciis astrorum*, *De sortibus*, etc.).
 
 ### D. Scripture Commentaries
 * **Catena Aurea**: Complete commentaries on Matthew, Mark, Luke, and John in Latin, English, and Spanish.
 * **Gospel Commentaries**: *Super Evangelium S. Ioannis* and *Super Evangelium S. Matthaei* in Latin and English.
-* **Pauline Corpus**: Complete commentaries on Romans, 1 Corinthians, 2 Corinthians, Galatians, Ephesians, Philippians, Colossians, 1 Thessalonians, and Hebrews.
-* **Old Testament**: Commentary on the Book of Job (*Expositio super Iob ad litteram*).
+* **Complete Pauline Corpus**: Full commentaries across all fourteen epistles:
+  * *Super Epistolam ad Romanos* in Latin.
+  * *Super I et II ad Corinthios* in Latin and English.
+  * *Super ad Galatas* in Latin and English.
+  * *Super ad Ephesios* in Latin and English.
+  * *Super ad Philippenses* in Latin and English.
+  * *Super ad Colossenses* in Latin and English.
+  * *Super I et II ad Thessalonicenses* in Latin (1 Thess in English as well).
+  * *Super I et II ad Timotheum* in Latin.
+  * *Super ad Titum* in Latin.
+  * *Super ad Philemonem* in Latin and English.
+  * *Super ad Hebraeos* in Latin and English.
+* **Old Testament**: Commentary on the Book of Job (*Expositio super Iob ad litteram*), Psalms (*In Psalmos*), and Lamentations (*In Threnos*).
 
 ### E. Aristotle Commentaries
 * *Sententia libri Ethicorum* (Nicomachean Ethics).
@@ -89,6 +105,7 @@ This allows instant bilingual or trilingual alignment, parallel reading, and dir
 * *Sententia super librum De Anima* (On the Soul).
 * *Sententia libri Politicorum* (Politics).
 * *Expositio libri Posteriorum Analyticorum* and *Peri Hermeneias*.
+* *De Caelo et Mundo*, *De Generatione et Corruptione*, *Meteora*, *De Sensu et Sensato*, *De Memoria et Reminiscentia*.
 
 ### F. Mendicant Controversies & Polemical Treatises
 * *Contra Impugnantes Dei Cultum et Religionem* in Latin, English, and Spanish.
@@ -101,21 +118,36 @@ This allows instant bilingual or trilingual alignment, parallel reading, and dir
 
 ---
 
-## 4. How to Use with Agentic Tools & Editors
+## 4. Scholarly Errata, Textual Emendation & Contribution Protocol
+
+To protect the integrity of the corpus and avoid corrupting machine-readable anchors, all researchers and collaborating AI agents must observe the formal governance protocol detailed in [ERRATA.md](file:///C:/Users/antst/Documents/corpus-thomisticum/ERRATA.md):
+
+1. **Never edit during research sessions:**
+   Do not apply immediate textual changes during active theological analysis or reading sessions. Log every suspect reading into `ERRATA.md`.
+
+2. **Cite authoritative witnesses:**
+   No conjectural corrections are permitted. Every change must cite a verified critical edition (Leonine volume, page, line, or variant) or an established printed text (Marietti, Alarcón).
+
+3. **Preserve invariant anchors:**
+   Never delete, modify, or renumber structural anchors (`{#sigla.ref}`). Corrections apply strictly to prose text.
+
+4. **Dedicated git branch workflow:**
+   All emendations are executed on the `corrections` git branch (`git checkout -b corrections`) with atomic commits citing the authority in the commit message, followed by a Pull Request.
+
+---
+
+## 5. How to Use with Agentic Tools & Editors
 
 ### Command-Line Search (`ripgrep`)
-Because all files are clean UTF-8 text, search across the entire Thomistic corpus is instantaneous:
 ```bash
 # Search for passive potency in the Latin Prima Pars
-rg -i "potentia passiva" Summa.1a.la.md
+rg "potentia passiva" Summa.1a.la.md
 
 # Search across all disputed questions
-rg -i "ratio boni" QD-*
+rg "ratio boni" QD-*.la.md
 ```
 
 ### In Claude Code, Antigravity, or Obsidian
-Clone the repository locally into your active workspace or knowledge base:
-```bash
-git clone https://github.com/antstratfordlol-bit/corpus-thomisticum.git
-```
-You can then pair this corpus directly with the **`study`** skill (for analytical reading by units) and the **`socratic-mentor`** skill (for closed-book oral examination).
+* Open the directory directly as a workspace.
+* Search across Markdown files using native fuzzy find or grep.
+* Anchor locators allow direct cross-referencing between Latin originals and vernacular translations.
