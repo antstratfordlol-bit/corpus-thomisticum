@@ -22,7 +22,7 @@ corpus-thomisticum/
 
 ## 1. Corpus Overview & Scope
 
-* **Scale**: Over 170 language editions across 83 distinct works (204 files, ~166 MB).
+* **Scale**: Over 184 language editions across 97 distinct works (218 files, ~177 MB).
 * **Editions Incorporated**:
   * **Latin (`.la.md`)**: Texts from *Corpus Thomisticum* (Fundación Tomás de Aquino / Enrique Alarcón, Universidad de Navarra), the Leonine Commission (*Editio Leonina*), and SCTA (*Scholastic Commentaries and Texts Archive*).
   * **English (`.en.md`)**: Translations by the Fathers of the English Dominican Province (Benziger Brothers, 1947 / CCEL) and Joseph Kenny OP (Dominican House of Studies Priory).
@@ -54,7 +54,7 @@ This allows instant bilingual or trilingual alignment, parallel reading, and dir
   * *Supplementum* (`supp`, currently in English; Latin in progress)
 * **Summa contra Gentiles**: Books 1 through 4 in Latin, English, and Spanish.
 * **Compendium Theologiae**: In Latin, English, and Spanish.
-* **Scriptum super Sententiis**: Commentary on the Sentences of Peter Lombard (Book I in full Latin covering all 48 Trinitarian distinctiones; English outline; Books II to IV Latin in progress).
+* **Scriptum super Sententiis**: Commentary on the Sentences of Peter Lombard. Complete in Latin across all four books (Liber 1: The Trinity; Liber 2: Creation and Fall; Liber 3: Incarnation and Virtues; Liber 4: Sacraments and Eschatology; plus the *Lectura Romana*) spanning all ~180 distinctiones, alongside the English outline.
 
 ### B. Disputed Questions (*Quaestiones Disputatae*)
 * *Quaestiones Disputatae de Veritate* (Truth) in Latin, English, and Spanish.
@@ -79,7 +79,12 @@ This allows instant bilingual or trilingual alignment, parallel reading, and dir
 * *Super Boetium De hebdomadibus* (*Expositio libri Boetii De ebdomadibus*) in Latin.
 * *Super Librum De causis* (*Expositio super librum De causis*) in Latin.
 * *Super De divinis nominibus* (*In librum beati Dionysii De divinis nominibus*) in Latin.
-* Shorter opuscula (*De mixtione elementorum*, *De motu cordis*, *De operationibus occultis naturae*, *De iudiciis astrorum*, *De sortibus*, etc.).
+* Shorter opuscula and polemical treatises:
+  * Logical treatises: *De fallaciis*, *De propositionibus modalibus*.
+  * Pastoral and disciplinary treatises: *De forma absolutionis*, *De secreto*, *De regimine Iudaeorum (Ad ducissam Brabantiae)*.
+  * Canonical expositions: *Expositio super primam et secundam Decretalem*.
+  * Canonical responses: *Responsiones ad diversos* (De 108, 43, 36, 30, et 6 articulis, including replies to John of Vercelli and the Venetian/Besançon lectors).
+  * Natural philosophy and metaphysics: *De mixtione elementorum*, *De motu cordis*, *De operationibus occultis naturae*, *De iudiciis astrorum*, *De sortibus*, etc.
 
 ### D. Scripture Commentaries
 * **Catena Aurea**: Complete commentaries on Matthew, Mark, Luke, and John in Latin, English, and Spanish.
@@ -96,7 +101,7 @@ This allows instant bilingual or trilingual alignment, parallel reading, and dir
   * *Super ad Titum* in Latin.
   * *Super ad Philemonem* in Latin and English.
   * *Super ad Hebraeos* in Latin and English.
-* **Old Testament**: Commentary on the Book of Job (*Expositio super Iob ad litteram*), Psalms (*In Psalmos*), and Lamentations (*In Threnos*).
+* **Old Testament**: Commentary on the Book of Job (*Expositio super Iob ad litteram*), Psalms (*In Psalmos*), Isaiah (*Super Isaiam*), Jeremiah (*Super Ieremiam*), and Lamentations (*Super Threnos*).
 
 ### E. Aristotle Commentaries
 * *Sententia libri Ethicorum* (Nicomachean Ethics).
