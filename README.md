@@ -22,7 +22,7 @@ corpus-thomisticum/
 
 ## 1. Corpus Overview & Scope
 
-* **Scale**: Over 167 language editions across 81 distinct works (202 files, ~162 MB).
+* **Scale**: Over 170 language editions across 83 distinct works (204 files, ~166 MB).
 * **Editions Incorporated**:
   * **Latin (`.la.md`)**: Texts from *Corpus Thomisticum* (Fundación Tomás de Aquino / Enrique Alarcón, Universidad de Navarra), the Leonine Commission (*Editio Leonina*), and SCTA (*Scholastic Commentaries and Texts Archive*).
   * **English (`.en.md`)**: Translations by the Fathers of the English Dominican Province (Benziger Brothers, 1947 / CCEL) and Joseph Kenny OP (Dominican House of Studies Priory).
@@ -54,7 +54,7 @@ This allows instant bilingual or trilingual alignment, parallel reading, and dir
   * *Supplementum* (`supp`, currently in English; Latin in progress)
 * **Summa contra Gentiles**: Books 1 through 4 in Latin, English, and Spanish.
 * **Compendium Theologiae**: In Latin, English, and Spanish.
-* **Scriptum super Sententiis**: Commentary on the Sentences of Peter Lombard (English outline held; full Latin text for Books I to IV being ingested from Corpus Thomisticum, with Book I Trinitarian distinctiones prioritised).
+* **Scriptum super Sententiis**: Commentary on the Sentences of Peter Lombard (Book I in full Latin covering all 48 Trinitarian distinctiones; English outline; Books II to IV Latin in progress).
 
 ### B. Disputed Questions (*Quaestiones Disputatae*)
 * *Quaestiones Disputatae de Veritate* (Truth) in Latin, English, and Spanish.
@@ -63,8 +63,8 @@ This allows instant bilingual or trilingual alignment, parallel reading, and dir
 * *Quaestio Disputata de Spiritualibus Creaturis* in Latin, English, and Spanish.
 * *Quaestiones Disputatae de Virtutibus* (Virtues in General, Charity, Cardinal Virtues) in Latin and English.
 * *Quaestio Disputata de Unione Verbi Incarnati* in English.
-* *Quaestio Disputata de Malo* (q. 1 in Spanish; full Latin text in progress).
-* *Quaestiones Quodlibetales* (Quodlibets 1 to 12).
+* *Quaestio Disputata de Malo* (complete Latin text covering Questions 1 to 16, plus Question 1 in Spanish).
+* *Quaestiones Quodlibetales* (complete Latin text of Quodlibets 1 to 12).
 
 ### C. Major Opuscula & Theological Commentaries
 * *De Ente et Essentia* (On Being and Essence) in Latin, English, and Spanish.
