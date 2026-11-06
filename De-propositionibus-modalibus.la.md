@@ -6,7 +6,7 @@ creator: Thomas Aquinas
 language: la
 original-language: yes
 authority-type: doctor-of-the-church
-authenticity: authentic
+authenticity: spurious
 status: current
 edition: Corpus Thomisticum (Enrique Alarcón, Universidad de Navarra / Fundatio S. Thomae de Aquino)
 source-url: "https://www.corpusthomisticum.org/dpp.html"
